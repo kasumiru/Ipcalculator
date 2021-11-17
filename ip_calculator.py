@@ -12,6 +12,7 @@ def _negation_mask(net_mask):
     return wild
 
 
+
 class IPCalculator(object):
     def __init__(self, ip_address, cdir=24):
         if '/' in ip_address:
