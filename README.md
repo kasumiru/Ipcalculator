@@ -1,4 +1,5 @@
 # IP Calculator
+upd 2021.11: support python3
 Ip Subnet Calculator (IP address, subnet mask, Network ID, host address ranges, broadcast calculation)
 ## Usage 1:
 `$python ip_calculator.py 192.168.0.1`
