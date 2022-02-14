@@ -6,24 +6,30 @@ Ip Subnet Calculator (IP address, subnet mask, Network ID, host address ranges, 
 `./ip_calculator.py 192.168.0.1/12`
 ## Result
 ```bash
-Calculating the IP range of 192.168.0.1/12
-==================================
-Netmask 255.240.0.0
-Network ID 192.160.0.0
-Subnet Broadcast address 192.175.255.255
-Host range 192.160.0.1 - 192.175.255.254
-Max number of hosts 1048574
+Calculating the IP range of 192.168.0.1/1
+=========================================
+binary IP -------------- : 11000000.10101000.00000000.00000001
+binary Mask ------------ : 10000000.00000000.00000000.00000000
+ip address ------------- : 192.168.0.1
+Netmask ---------------- : 128.0.0.0
+Network ID ------------- : 128.0.0.0
+Subnet Broadcast address : 255.255.255.255
+Host range ------------- : 128.0.0.1 - 255.255.255.254
+Max number of hosts ---- : 2147483646
 ```
 
 ## Usage 2:
-`./ip_calculator.py 192.168.0.1`
+`./ip_calculator.py 10.10.10.0/22`
 ## Result
 ```bash
-Calculating the IP range of 192.168.0.1/24
-==================================
-Netmask 255.255.255.0
-Network ID 192.168.0.0
-Subnet Broadcast address 192.168.0.255
-Host range 192.168.0.1 - 192.168.0.254
-Max number of hosts 254
+Calculating the IP range of 10.10.10.0/22
+=========================================
+binary IP -------------- : 00001010.00001010.00001010.00000000
+binary Mask ------------ : 11111111.11111111.11111100.00000000
+ip address ------------- : 10.10.10.0
+Netmask ---------------- : 255.255.252.0
+Network ID ------------- : 10.10.8.0
+Subnet Broadcast address : 10.10.11.255
+Host range ------------- : 10.10.8.1 - 10.10.11.254
+Max number of hosts ---- : 1022
 ```
