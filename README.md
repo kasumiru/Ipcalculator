@@ -1,4 +1,4 @@
-# IP Calculator
+# IP Calculator (python3)
 upd 2021.11: code converted from python2 to python3
 Ip Subnet Calculator (IP address, subnet mask, Network ID, host address ranges, broadcast calculation)
 
