@@ -1,5 +1,5 @@
 #!/usr/bin/env python3 
-__author__ = 'Original code: Kailash Joshi. Convert to python3: Kasumiru'
+__author__ = 'Original code: Kailash Joshi https://github.com/kailashjoshi/Ipcalculator. Convert to python3: Kasumiru'
 import sys
 
 def _dec_to_binary(ip_address):
